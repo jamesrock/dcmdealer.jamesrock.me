@@ -1,0 +1,8 @@
+[data-type~="HTMLPromptDialogElement"] [data-type~="HTMLCustomTextInputElement"] {
+	font-size:16px;
+}
+
+[data-type~="HTMLPromptSelectDialogElement"] [data-type~="HTMLSelectMenuElement"] {
+	font-size:14px;
+	text-transform:uppercase;
+}

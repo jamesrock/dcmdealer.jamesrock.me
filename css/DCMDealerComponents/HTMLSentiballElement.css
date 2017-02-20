@@ -1,0 +1,17 @@
+[data-type="HTMLSentiballElement"] {
+	margin:15px auto 20px;
+	position:relative;
+}
+
+[data-type="HTMLSentiballValueElement"] {
+	position:absolute;
+	left:0;
+	right:0;
+	top:38px;
+	text-align:center;
+	font-size:30px;
+	color:#FFF;
+	font-family:OpenSansBold, Arial, Helvetica, sans-serif;
+	text-shadow:1px 1px 3px #000;
+	cursor:default;
+}

@@ -1,0 +1,19 @@
+[data-type~="HTMLTabGroupElement"] {
+	position:relative;
+}
+
+[data-type~="HTMLTabNavigationItemElement"] {
+	float:left;
+	padding:0 5px;
+	cursor:pointer;
+	text-align:center;
+}
+
+[data-type~="HTMLTabNavigationItemElement"][disabled="disabled"] {
+	opacity:0.5;
+	cursor:default;
+}
+
+[data-type~="HTMLTabNavigationItemElement"][data-active="true"] {
+	font-weight:bold;
+}

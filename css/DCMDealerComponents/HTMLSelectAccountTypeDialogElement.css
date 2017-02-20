@@ -1,0 +1,30 @@
+[data-type~="HTMLSelectAccountTypeDialogElement"] {
+	width:750px;
+}
+
+[data-type~="HTMLSelectAccountTypeDialogElement"] [data-type="HTMLDialogFootElement"] {
+	padding:20px 270px;
+}
+
+[data-type~="HTMLSelectAccountTypeDialogElement"] [data-type="HTMLDisclaimerElement"] {
+	margin-top:20px;
+}
+
+[data-type~="HTMLSelectAccountTypeDialogElement"] [data-type="HTMLDialogMessageElement"] {
+	font-size:18px;
+	/*padding:10px 40px;*/
+	text-align:center;
+	margin-bottom:30px;
+	line-height:1.7;
+}
+
+[data-type~="HTMLSelectAccountTypeDialogElement"] [data-type="HTMLDialogHeadElement"] {
+	text-align:center;
+	font-size:40px;
+	font-family:OpenSansSemibold,Arial,Helvetica,sans-serif;
+	color:#D95B0F;
+}
+
+[data-type~="HTMLSelectAccountTypeDialogElement"] [data-type="HTMLDialogBodyElement"] {
+	padding:0 15px;
+}

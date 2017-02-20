@@ -1,0 +1,34 @@
+[data-type~="HTMLFlagIconElement"] {
+	width:24px;
+	height:15px;
+	background-image:url(/images/flags.png);
+	display:inline-block;
+}
+
+[data-type~="HTMLFlagIconElement"][data-culture="GER"] {
+	background-position:0 -15px;
+}
+
+[data-type~="HTMLFlagIconElement"][data-culture="FRA"] {
+	background-position:0 -30px;
+}
+
+[data-type~="HTMLFlagIconElement"][data-culture="NOR"] {
+	background-position:0 -45px;
+}
+
+[data-type~="HTMLFlagIconElement"][data-culture="SWE"] {
+	background-position:0 -60px;
+}
+
+[data-type~="HTMLSelectMenuItemElement"] [data-type~="HTMLFlagIconElement"],
+[data-type~="HTMLSelectMenuTriggerElement"] [data-type~="HTMLFlagIconElement"] {
+	margin-right:5px;
+	float:left;
+	margin-top:2px;
+}
+
+[data-type~="HTMLLanguageSelectMenuElement"] [data-type~="HTMLSelectMenuItemLabelElement"] {
+	font-size:12px;
+	display:inline-block;
+}

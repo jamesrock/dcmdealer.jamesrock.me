@@ -1,0 +1,180 @@
+[data-type~="HTMLIconElement"] {
+	text-indent:-999999px;
+	display:block;
+	background-repeat:no-repeat;
+}
+
+[data-type~="HTMLIconElement"][data-size="1"] {
+	width:20px;
+	height:20px;
+	background-image:url(/images/icon-20.png);
+	background-position:20px 20px;
+}
+
+[data-type~="HTMLIconElement"][data-size="1"][data-role="add-module"] {
+	background-position:-300px -300px;
+}
+
+[data-type~="HTMLIconElement"][data-size="1"][data-role="my-account"] {
+	background-position:-280px -280px;
+}
+
+[data-type~="HTMLIconElement"][data-size="1"][data-role="finder"] {
+	background-position:-260px -260px;
+}
+
+[data-type~="HTMLIconElement"][data-size="1"][data-role="balance"] {
+	background-position:-240px -240px;
+}
+
+[data-type~="HTMLIconElement"][data-size="1"][data-role="settings"] {
+	background-position:-220px -220px;
+}
+
+[data-type~="HTMLIconElement"][data-size="1"][data-role="logout"] {
+	background-position:-200px -200px;
+}
+
+[data-type~="HTMLToolbarItemElement"]:hover [data-type~="HTMLIconElement"][data-size="1"][data-role="add-module"] {
+	background-position:-740px -740px;
+}
+
+[data-type~="HTMLToolbarItemElement"]:hover [data-type~="HTMLIconElement"][data-size="1"][data-role="my-account"] {
+	background-position:-760px -760px;
+}
+
+[data-type~="HTMLToolbarItemElement"]:hover [data-type~="HTMLIconElement"][data-size="1"][data-role="finder"] {
+	background-position:-720px -720px;
+}
+
+[data-type~="HTMLToolbarItemElement"]:hover [data-type~="HTMLIconElement"][data-size="1"][data-role="balance"] {
+	background-position:-700px -700px;
+}
+
+[data-type~="HTMLToolbarItemElement"]:hover [data-type~="HTMLIconElement"][data-size="1"][data-role="settings"] {
+	background-position:-680px -680px;
+}
+
+[data-type~="HTMLToolbarItemElement"]:hover [data-type~="HTMLIconElement"][data-size="1"][data-role="logout"] {
+	background-position:-780px -780px;
+}
+
+[data-type~="HTMLIconElement"][data-size="1"][data-role="account-overview"] {
+	background-position:-60px -60px;
+}
+
+[data-type~="HTMLIconElement"][data-size="1"][data-role="open-positions"] {
+	background-position:-40px -40px;
+}
+
+[data-type~="HTMLIconElement"][data-size="1"][data-role="news"] {
+	background-position:-20px -20px;
+}
+
+[data-type~="HTMLIconElement"][data-size="1"][data-role="global-watchlist"] {
+	background-position:0 0;
+}
+
+[data-type~="HTMLIconElement"][data-size="1"][data-role="orders"] {
+	background-position:-1300px -1300px;
+}
+
+[data-type~="HTMLIconElement"][data-size="1"][data-role="deal-ticket"] {
+	background-position:-160px -160px;
+}
+
+[data-type~="HTMLIconElement"][data-size="1"][data-role="my-portfolio"] {
+	background-position:-600px -600px;
+}
+
+[data-type~="HTMLIconElement"][data-size="1"][data-role="alerts"] {
+	background-position:-620px -620px;
+}
+
+[data-type~="HTMLIconElement"][data-size="1"][data-role="notes"] {
+	background-position:-640px -640px;
+}
+
+[data-type~="HTMLIconElement"][data-size="1"][data-role="trading-wizard"] {
+	background-position:-660px -660px;
+}
+
+[data-type~="HTMLIconElement"][data-size="1"][data-role="chart-module"] {
+	background-position:-1320px -1320px;
+}
+
+[data-type~="HTMLIconElement"][data-size="1"][data-role="module-menu-watchlists"] {
+	background-position:-440px -440px;
+}
+
+[data-type~="HTMLIconElement"][data-size="1"][data-role="module-menu-portfolio"] {
+	background-position:-480px -480px;
+}
+
+[data-type~="HTMLIconElement"][data-size="1"][data-role="module-menu-open-positions"] {
+	background-position:;
+}
+
+[data-type~="HTMLIconElement"][data-size="1"][data-role="module-menu-news"] {
+	background-position:-520px -520px;
+}
+
+[data-type~="HTMLIconElement"][data-size="1"][data-role="module-menu-notes"] {
+	background-position:-540px -540px;
+}
+
+[data-type~="HTMLIconElement"][data-size="1"][data-role="module-menu-alerts"] {
+	background-position:-580px -580px;
+}
+
+[data-type~="HTMLIconElement"][data-size="1"][data-role="module-menu-training-wizard"] {
+	background-position:-460px -460px;
+}
+
+[data-type~="HTMLIconElement"][data-size="1"][data-role="module-menu-orders"] {
+	background-position:-1280px -1280px;
+}
+
+[data-type~="HTMLIconElement"][data-size="1"][data-role="navigation-tutorial"] {
+	background-position:-1200px -1200px;
+}
+
+[data-type~="HTMLIconElement"][data-size="1"][data-role="navigation-education"] {
+	background-position:-1160px -1160px;
+}
+
+[data-type~="HTMLIconElement"][data-size="1"][data-role="navigation-funds"] {
+	background-position:-1240px -1240px;
+}
+
+[data-type="HTMLAnchorElement"]:hover [data-type~="HTMLIconElement"][data-size="1"][data-role="navigation-tutorial"] {
+	background-position:-1220px -1220px;
+}
+
+[data-type="HTMLAnchorElement"]:hover [data-type~="HTMLIconElement"][data-size="1"][data-role="navigation-education"] {
+	background-position:-1180px -1180px;
+}
+
+[data-type="HTMLAnchorElement"]:hover [data-type~="HTMLIconElement"][data-size="1"][data-role="navigation-funds"] {
+	background-position:-1260px -1260px;
+}
+
+[data-type~="HTMLIconElement"][data-role="deal-ticket-down-arrow"],
+[data-type~="HTMLIconElement"][data-role="deal-ticket-up-arrow"] {
+	width:20px;
+	height:20px;
+	background-repeat:no-repeat;
+	position:absolute;
+}
+
+[data-type~="HTMLIconElement"][data-role="deal-ticket-down-arrow"] {
+	background-image:url(/images/sellButtonArrow.png);
+	bottom:5px;
+	left:5px;
+}
+
+[data-type~="HTMLIconElement"][data-role="deal-ticket-up-arrow"] {
+	background-image:url(/images/buyButtonArrow.png);
+	top:5px;
+	right:4px;
+}

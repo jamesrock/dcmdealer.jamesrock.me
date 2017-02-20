@@ -1,0 +1,10 @@
+[data-type~="HTMLAccountDetailsPanelElement"] {	
+	float:right;
+	margin-top:5px;
+}
+
+[data-type~="HTMLAccountDetailsPanelElement"] [data-type~="HTMLColumnElement"] {	
+	width:120px;
+	text-align:center;
+	font-size:14px;
+}

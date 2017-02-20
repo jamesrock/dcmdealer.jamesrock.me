@@ -1,0 +1,58 @@
+[data-type~="HTMLSelectMenuElement"] {
+	cursor:pointer;
+	border-radius:2px;
+	box-shadow:1px 1px 2px rgba(0,0,0,0.3) inset;
+	position:relative;
+	background-color:#FFF;
+}
+
+[data-select-role="menu"] {
+	background-image:-moz-linear-gradient(top, #FFF, #F5F5F5);
+	background-image:-webkit-linear-gradient(top, #FFF, #F5F5F5);
+	background-color:#FFF;
+	list-style:none;
+	position:absolute;
+	z-index:999999;
+	top:0;
+	display:none;
+	box-shadow:0 2px 2px rgba(0,0,0,0.3);
+}
+
+[data-type~="HTMLSelectMenuItemElement"] {
+	padding:4px 15px 4px 10px;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+}
+
+[data-type~="HTMLSelectMenuItemElement"]:hover {
+	text-decoration:none;
+	background-color:rgba(17,127,244,0.07);
+}
+
+[data-type~="HTMLSelectMenuItemElement"][data-enabled="false"],
+[data-type~="HTMLSelectMenuItemElement"][data-enabled="false"]:hover,
+[data-type~="HTMLSelectMenuItemElement"][disabled="disabled"],
+[data-type~="HTMLSelectMenuItemElement"][disabled="disabled"]:hover {
+	opacity:0.4;
+	background-color:transparent;
+	cursor:default;
+}
+
+[data-type~="HTMLSelectMenuElement"][data-active="true"] [data-select-role="menu"] {
+	display:block;
+}
+
+[data-type~="HTMLSelectMenuElement"][data-active="true"] {
+	background-color:#FFF;
+}
+
+[data-select-role="trigger"] {
+	background-image:url(/images/select-arrows.png);
+	background-position:100% 50%;
+	background-repeat:no-repeat;
+	padding:4px 15px 4px 10px;
+}
+
+[data-select-active="true"] [data-select-role="trigger"] {
+	background-image:none;
+}

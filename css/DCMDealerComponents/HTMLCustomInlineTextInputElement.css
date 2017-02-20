@@ -1,0 +1,9 @@
+[data-type~="HTMLCustomInlineTextInputElement"] {
+	display:inline-block;
+	margin-right:10px;
+	margin-bottom:0;
+}
+
+[data-type~="HTMLCustomInlineTextInputElement"]:last-child {
+	margin-right:0;
+}

@@ -1,0 +1,47 @@
+[data-type~="HTMLPortfoliosModuleElement"][data-collapsed="false"] {
+	width:610px;
+}
+
+[data-type~="HTMLPortfoliosModuleElement"] > [data-type="HTMLModuleBodyElement"] > [data-type="HTMLModuleFootElement"] {
+	background-image:-moz-linear-gradient(top, #FFF, #F5F5F5);
+	background-image:-webkit-linear-gradient(top, #FFF, #F5F5F5);
+	background-image:-ms-linear-gradient(top, #FFF, #F5F5F5);
+	background-color:#F5F5F5;
+	padding:10px 50px;
+}
+
+[data-portfolio-chart-role="chart-heading"] {
+	text-align:center;
+	text-transform:uppercase;
+	font-family:OpenSansSemibold,Arial,Helvetica,sans-serif;
+}
+
+[data-type~="HTMLPortfolioAddElement"] {
+	width:166px;
+	margin:5px;
+	float:left;
+	padding:0;
+	border:dashed 1px #CCC;
+	padding:10px;
+	cursor:pointer;
+}
+
+[data-type~="HTMLPortfolioAddElement"]:hover {
+	opacity:0.8;
+}
+
+[data-type~="HTMLPortfolioAddElement"] [data-add-portfolio-role="icon"] {
+	background-color:#EEE;
+	background-image:url(/images/addPortfolioButton.png);
+	background-repeat:no-repeat;
+	background-position:50% 50%;
+	height:147px;
+}
+
+[data-type~="HTMLPortfolioAddElement"] [data-add-portfolio-role="heading"] {
+	text-align:center;
+	text-transform:uppercase;
+	margin-top:8px;
+	color:#8C8C8C;
+	font-family:OpenSansBold, Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,25 @@
+[data-type="HTMLPageFootElement"] {
+	margin-top:30px;
+}
+
+[data-type="HTMLDisclaimerElement"] {
+	text-align:center;
+	font-size:11px;
+	color:#999;
+}
+
+[data-type="HTMLPageFootElement"] [data-type~="HTMLInlineULElement"] {
+	margin-bottom:20px;
+	font-size:11px;
+	text-align:center;
+	color:#999;
+	font-family:OpenSansBold,Arial,Helvetica,sans-serif;
+}
+
+[data-type="HTMLDisclaimerElement"] a {
+	text-decoration:underline;
+}
+
+[data-type="HTMLDisclaimerElement"] a:hover {
+	text-decoration:none;
+}

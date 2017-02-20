@@ -1,0 +1,22 @@
+[data-type~="HTMLSelectAccountTypeDialogButtonElement"] {
+	vertical-align:middle;
+	padding:10px 15px 20px;
+	width:330px;
+}
+
+[data-type~="HTMLSelectAccountTypeDialogButtonElement"] [data-role="name"] {
+	font-size:24px;
+}
+
+[data-type~="HTMLSelectAccountTypeDialogButtonElement"] [data-role="desc"] {
+	font-size:16px;
+	text-transform:none;
+	font-style:italic;
+	font-weight:normal;
+	font-family:OpenSansSemibold,Arial,Helvetica,sans-serif;
+	margin-bottom:15px;
+}
+
+[data-type~="HTMLSelectAccountTypeSpreadDialogButtonElement"] {
+	margin-right:20px;
+}

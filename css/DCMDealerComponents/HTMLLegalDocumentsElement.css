@@ -1,0 +1,13 @@
+[data-type~="HTMLLegalDocumentsElement"] {
+	margin-top:20px;
+	font-family:OpenSansSemibold,Arial,Helvetica,sans-serif;
+	text-align:center;
+}
+
+[data-type~="HTMLLegalDocumentsElement"] a {
+	text-decoration:underline;
+}
+
+[data-type~="HTMLLegalDocumentsElement"] a:hover {
+	text-decoration:none;
+}

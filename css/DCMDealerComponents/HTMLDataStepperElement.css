@@ -1,0 +1,20 @@
+[data-type~="HTMLDataStepperElement"] {
+	position:relative;
+	display:inline-block;
+	width:110px;
+	margin-right:10px;
+}
+
+[data-type~="HTMLDataStepperElement"][data-enabled="false"],
+[data-type~="HTMLDataStepperElement"][disabled="disabled"] {
+	opacity:0.6;
+}
+
+[data-type~="HTMLDataStepperElement"][data-enabled="false"] [data-type~="HTMLNumericStepperButtonElement"],
+[data-type~="HTMLDataStepperElement"][disabled="disabled"] [data-type~="HTMLNumericStepperButtonElement"] {
+	cursor:default;
+}
+
+[data-type~="HTMLDataStepperElement"][data-valid="false"] input {
+	color:red;
+}

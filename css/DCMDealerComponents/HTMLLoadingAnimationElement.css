@@ -1,0 +1,59 @@
+[data-type="HTMLLoadingAnimationElement"] {
+	position:fixed;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+	overflow:hidden;
+	background-attachment:fixed;
+	background-image:url(/images/bg-light.png);
+	background-color:#FBFBFB;
+	background-position:50% 0;
+	background-repeat:no-repeat;
+	z-index:999999;
+}
+
+[data-type="HTMLLoadingAnimationAnimationElement"] {
+	background-image:url(/images/loader.png);
+	background-position:50% 50%;
+	background-repeat:no-repeat;
+	width:8000px;
+	height:8000px;
+	margin-left:-4000px;
+	margin-top:-4050px;
+	-moz-animation:spin 5s infinite linear;
+	-webkit-animation:spin 5s infinite linear;
+	position:absolute;
+	top:50%;
+	left:50%;
+}
+
+[data-type="HTMLLoadingAnimationTextElement"] {
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin-left:-100px;
+	margin-top:60px;
+	font-size:22px;
+	text-align:center;
+	font-weight:bold;
+	font-size:24px;
+}
+
+[data-type="HTMLLoadingAnimationTextHeadElement"] {
+	font-size:30px;
+	font-family:OpenSansBold, Arial, Helvetica, sans-serif;
+}
+
+[data-type="HTMLLoadingAnimationAnimationFaderElement"] {
+	width:4000px;
+	height:8000px;
+	margin-left:4000px;
+	background-color:rgba(0,0,0,0.04);
+}
+
+[data-type="HTMLLoadingAnimationTextElement"] [data-type~="HTMLBrandIconElement"] {
+	margin-bottom:0;
+}
+
+

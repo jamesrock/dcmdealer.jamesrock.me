@@ -1,0 +1,96 @@
+@import "fonts.css";
+@import "forms.new.css";
+@import "animations.css";
+
+* {
+	margin:0;
+	padding:0;
+}
+/*
+::-moz-selection {
+    background-color:transparent;
+}
+*/
+
+html {
+	overflow-y:scroll;
+	background-attachment:fixed;
+	background-image:url(/images/bg-light.png);
+	background-color:#FBFBFB;
+	background-position:50% 0;
+	background-repeat:no-repeat;
+}
+
+body {
+	font-family:OpenSansRegular, Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#888;
+	line-height:1.4;
+	cursor:default;
+}
+
+a {
+	text-decoration:none;
+	color:#888;
+	outline:none;
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+a > img {
+	border:0;
+}
+
+h2 {
+	font-size:12px;
+	font-weight:normal;
+}
+
+h3 {
+	text-transform:capitalize;
+	font-size:14px;
+}
+
+p {
+	margin-bottom:20px;
+}
+
+ul {
+	list-style:none;
+}
+
+em {
+	font-style:normal;
+	font-family:OpenSansBold, Arial, Helvetica, sans-serif;
+}
+
+button {
+	outline:none;
+}
+
+.hidden {
+	display:none;
+}
+
+.icon-logo {
+	width:153px;
+	height:95px;
+	background:url(/images/logos/logo-medium.png) no-repeat;
+}
+
+.icon-text {
+	background:url(/images/icon-16.png) no-repeat;
+	padding-left:20px;
+	display:block;
+	height:16px;
+	line-height:16px;
+}
+
+.heading {
+	text-indent:-999999px;
+	width:168px;
+	height:37px;
+	background-image:url(/images/logo.png);
+}

@@ -1,0 +1,29 @@
+[data-type~="HTMLSettingsModuleElement"] {
+	background-image:-moz-linear-gradient(top, #F7721C, #E6620D);
+	background-image:-webkit-linear-gradient(top, #F7721C, #E6620D);
+	background-image:-ms-linear-gradient(top, #F7721C, #E6620D);
+	background-color:#F7721C;
+	padding:15px;
+	box-shadow:5px 5px 5px rgba(0, 0, 0, 0.4);
+}
+
+[data-settings-role="body"] {
+	background-color:#FFF;
+	padding:25px 40px;
+	font-size:12px;
+}
+
+[data-settings-role="head"] {
+	margin-bottom:20px;
+}
+
+[data-type~="HTMLSettingsModuleElement"] [data-type~="HTMLFormLabelElement"] {
+	font-family:OpenSansBold, Arial, Helvetica, sans-serif;
+}
+
+[data-type~="HTMLSettingsModuleElement"] [data-type~="HTMLFormInputElement"] {
+	margin-left:180px;
+}
+
+
+

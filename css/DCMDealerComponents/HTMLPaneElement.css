@@ -1,0 +1,11 @@
+[data-type~="HTMLPaneElement"] {
+	
+}
+
+[data-type~="HTMLPaneHeadElement"] {
+	margin-bottom:20px;
+}
+
+[data-type~="HTMLPaneBodyElement"] {
+	margin-bottom:20px;
+}

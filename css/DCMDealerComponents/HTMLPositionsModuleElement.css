@@ -1,0 +1,34 @@
+[data-type~="HTMLPositionsModuleElement"][data-collapsed="false"] {
+	width:610px;
+}
+
+[data-type~="HTMLPositionsModuleElement"][data-collapsed="true"] {
+	width:300px;
+}
+
+[data-type~="HTMLPositionsModuleElement"] [data-table-column-id="7"] {
+	width:100px;
+}
+
+[data-type~="HTMLPositionsModuleElement"][data-collapsed="true"] [data-table-column-id="1"] [data-role="market-name"],
+[data-type~="HTMLPositionsModuleElement"][data-collapsed="true"] [data-table-column-id="3"],
+[data-type~="HTMLPositionsModuleElement"][data-collapsed="true"] [data-table-column-id="4"],
+[data-type~="HTMLPositionsModuleElement"][data-collapsed="true"] [data-table-column-id="5"] {
+	display:none;
+}
+
+[data-type~="HTMLPositionsModuleElement"][data-collapsed="true"] [data-table-column-id="1"] {
+	width:50px;
+}
+
+[data-value-direction-name="POSITIVE"] {
+	color:#32A020;
+}
+
+[data-value-direction-name="NEGATIVE"] {
+	color:#CD0202;
+}
+
+[data-value-direction-name] {
+	font-family:OpenSansBold,Arial,Helvetica,sans-serif;
+}

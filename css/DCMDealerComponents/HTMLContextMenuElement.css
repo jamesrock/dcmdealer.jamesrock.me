@@ -1,0 +1,49 @@
+[data-type~="HTMLContextMenuElement"] {
+	background-color:#FFF;
+	box-shadow:0 3px 3px rgba(0,0,0,0.3);
+	list-style:none;
+	background-image:-moz-linear-gradient(top, #FFF, #F5F5F5);
+	background-image:-webkit-linear-gradient(top, #FFF, #F5F5F5);
+	background-image:-ms-linear-gradient(top, #FFF, #F5F5F5);
+	background-color:#FFF;
+	border:solid 1px #DDD;
+	z-index:999999;
+}
+
+[data-type~="HTMLContextMenuItemElement"] {
+	text-decoration:none;
+	padding-left:25px;
+	padding-right:15px;
+	display:block;
+	font-size:12px;
+	cursor:pointer;
+}
+
+[data-type~="HTMLContextMenuItemElement"] > span {
+	display:block;
+	border:solid 1px #EEE;
+	border-width:0 0 0 1px;
+	padding-top:5px;
+	padding-left:10px;
+	padding-bottom:5px;
+}
+
+[data-type~="HTMLContextMenuItemElement"]:hover {
+	text-decoration:none;
+	background-color:#E1EFF5;
+}
+
+[data-type~="HTMLContextMenuItemElement"][data-enabled="false"],
+[data-type~="HTMLContextMenuItemElement"][data-enabled="false"]:hover,
+[data-type~="HTMLContextMenuItemElement"][disabled="disabled"],
+[data-type~="HTMLContextMenuItemElement"][disabled="disabled"]:hover {
+	opacity:0.5;
+	cursor:default;
+	background-color:transparent;
+}
+
+[data-contextmenu-toggle-active="true"] {
+	background-image:url(/images/context-menu-active.png);
+	background-repeat:no-repeat;
+	background-position:6px 50%;
+}

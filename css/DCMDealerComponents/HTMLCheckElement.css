@@ -1,0 +1,38 @@
+[data-type~="HTMLCheckElement"] {
+	display:inline-block;
+}
+
+[data-type~="HTMLCheckElement"][data-enabled="false"],
+[data-type~="HTMLCheckElement"][disabled="disabled"] {
+	opacity:0.5;
+}
+
+[data-type~="HTMLCheckElement"] [data-check-role="check"] {
+	display:inline-block;
+	width:17px;
+	height:17px;
+	vertical-align:middle;
+	background-image:url(/images/radio-button.png);
+	background-repeat:no-repeat;
+	cursor:pointer;
+	margin-right:5px;
+	border:0;
+	padding:0;
+	background-color:transparent;
+}
+
+[data-type~="HTMLCheckElement"] label {
+	vertical-align:middle;
+}
+
+[data-type~="HTMLCheckElement"] [data-check-role="check"][data-checked="true"] {
+	background-position:-17px 0;
+}
+
+[data-type~="HTMLCheckElement"] [data-check-role="check"][data-checked="true"]:focus {
+	background-position:-51px 0;
+}
+
+[data-type~="HTMLCheckElement"] [data-check-role="check"][data-checked="false"]:focus {
+	background-position:-34px 0;
+}

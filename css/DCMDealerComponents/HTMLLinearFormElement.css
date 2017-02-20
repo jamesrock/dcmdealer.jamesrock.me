@@ -1,0 +1,9 @@
+[data-type~="HTMLLinearFormElement"] [data-type~="HTMLFormLabelElement"] {
+	float:none;
+	margin-bottom:5px;
+	font-family:OpenSansBold, Arial, Helvetica, sans-serif;
+}
+
+[data-type~="HTMLLinearFormElement"] [data-type~="HTMLFormInputElement"] {
+	margin-left:0;
+}

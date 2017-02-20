@@ -1,0 +1,24 @@
+[data-type~="HTMLToolbarItemElement"] {
+	position:relative;
+}
+
+[data-type~="HTMLToolbarItemElement"] > [data-type~="HTMLGraphicButtonElement"] {
+	padding:20px 10px;
+	border-bottom:solid 1px #EEE;
+}
+
+[data-type~="HTMLToolbarItemElement"][data-role="add-module"] > [data-type~="HTMLGraphicButtonElement"] {
+	padding:25px 10px;
+}
+
+[data-type~="HTMLToolbarItemElement"][data-role="logout"] > [data-type~="HTMLGraphicButtonElement"] {
+	border:0;
+}
+
+[data-type~="HTMLToolbarItemElement"]:hover > [data-toolbar-role="pop-out"] {
+	display:block;
+}
+
+[data-type~="HTMLToolbarItemElement"]:hover > [data-type~="HTMLGraphicButtonElement"] {
+	background-color:#F7721C;
+}

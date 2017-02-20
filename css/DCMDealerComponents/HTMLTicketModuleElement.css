@@ -1,0 +1,291 @@
+[data-type~="HTMLTicketModuleElement"][data-collapsed="false"] {
+	width:610px;
+}
+
+[data-type~="HTMLTicketModuleElement"][data-collapsed="true"] {
+	width:300px;
+}
+
+[data-type="HTMLTicketModuleHeadElement"] {
+	padding-bottom:7px;
+	border:solid 1px #EEE;
+	border-width:0 0 1px;
+}
+
+[data-deal-ticket-role="buy-and-sell"] {
+	margin-bottom:5px;
+	border:solid 1px #EEE;
+	border-width:0 0 1px;
+	padding:5px 0;
+}
+
+[data-deal-ticket-role="sub-label"] {
+	color:#999;
+	line-height:1;
+}
+
+[data-type="HTMLTicketModuleButtonLabelElement"] {
+	font-size:14px;
+	line-height:1;
+}
+
+[data-type="HTMLTicketModuleButtonValueElement"] {
+	line-height:1;
+}
+
+[data-type~="HTMLTicketModuleBuyButtonElement"] {
+	background-image:-moz-linear-gradient(top, #93DC71, #53C12D);
+	background-image:-webkit-linear-gradient(top, #93DC71, #53C12D);
+	background-image:-ms-linear-gradient(top, #93DC71, #53C12D);
+	background-color:#93DC71;
+	border-color:#69A757;
+	float:right;
+}
+
+[data-type~="HTMLTicketModuleSellButtonElement"] {
+	background-image:-moz-linear-gradient(top, #CD0202, #B1070B);
+	background-image:-webkit-linear-gradient(top, #CD0202, #B1070B);
+	background-image:-ms-linear-gradient(top, #CD0202, #B1070B);
+	background-color:#CD0202;
+	border-color:#A91015;
+	float:left;
+}
+
+[data-role="place-ticket"] {
+	background-image:-moz-linear-gradient(top, #FD7B27, #EF660D);
+	background-image:-webkit-linear-gradient(top, #FD7B27, #EF660D);
+	background-image:-ms-linear-gradient(top, #FD7B27, #EF660D);
+	background-color:#FD7B27;
+	border-color:#BC4D05;
+}
+
+[data-type~="HTMLTicketModuleButtonElement"] {
+	width:137px;
+	padding:5px 10px;
+	position:relative;
+}
+
+[data-type~="HTMLTicketModulePanelElement"] {
+	height:350px;
+}
+
+[data-type~="HTMLTicketModuleLeftPanelElement"] {
+	width:286px;
+	float:left;
+}
+
+[data-type~="HTMLTicketModuleRightPanelElement"] {
+	width:280px;
+	float:right;
+	border:1px solid #EEE;
+	border-width:0 0 0 1px;
+	padding:0 10px;
+}
+
+[data-type~="HTMLTicketModuleElement"][data-collapsed="true"] [data-type~="HTMLTicketModuleRightPanelElement"] {
+	display:none;
+}
+
+[data-deal-ticket-role="data-table"] [data-type="HTMLColumnElement"] {
+	width:70px;
+}
+
+[data-deal-ticket-role="data-table"] [data-type="HTMLColumnHeadElement"] {
+	text-align:center;
+	font-style:italic;
+	font-size:10px;
+}
+
+[data-deal-ticket-role="data-table"] [data-type="HTMLColumnBodyElement"] {
+	text-align:center;
+}
+
+[data-deal-ticket-role="data-table"] [data-column-id="0"] [data-type="HTMLColumnHeadElement"] {
+	text-align:right;
+}
+
+[data-type~="HTMLTicketModuleNotificationElement"] [data-type~="HTMLColumnElement"][data-column-id="0"] {
+	font-weight:bold;
+}
+
+[data-type~="HTMLTicketModuleNotificationElement"] [data-type~="HTMLColumnElement"][data-column-id="1"] {
+	margin-left:150px;
+	float:none;
+}
+
+[data-type~="HTMLTicketModuleNotificationElement"] {
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	background-color:rgba(255,255,255,0.9);
+}
+
+[data-type="HTMLTicketModuleNotificationWrapElement"] {
+	width:286px;
+	position:absolute;
+	top:5px;
+	bottom:5px;
+	left:50%;
+	margin-left:-143px;
+}
+
+[data-type="HTMLTicketModuleNotificationHeadElement"] {
+	text-align:center;
+	font-size:36px;
+	color:#E8630E;
+	font-family:OpenSansBold, Arial, Helvetica, sans-serif;
+	line-height:1;
+	margin-bottom:10px;
+}
+
+[data-type="HTMLTicketModuleNotificationBodyElement"] {
+	margin:0 20px 20px;
+}
+
+[data-type="HTMLTicketModuleNotificationFootElement"] {
+	position:absolute;
+	bottom:0;
+	right:0;
+	left:0;
+}
+
+[data-type="HTMLTicketModuleSuccessTickerElement"] {
+	text-align:center;
+	color:#E8630E;
+	font-size:18px;
+	font-family:OpenSansBold, Arial, Helvetica, sans-serif;
+}
+
+[data-type="HTMLTicketModuleSuccessInstrumentNameElement"] {
+	text-align:center;
+	font-size:18px;
+	font-family:OpenSansBold, Arial, Helvetica, sans-serif;
+}
+
+[data-type="HTMLTicketModuleSuccessSharesElement"] {
+	font-size:36px;
+	text-align:center;
+	font-family:OpenSansBold, Arial, Helvetica, sans-serif;
+	line-height:1;
+}
+
+[data-type="HTMLTicketModuleSuccessSideElement"][data-direction="BUY"],
+[data-type="HTMLTicketModuleSuccessSideElement"][data-direction="SELL"] {
+	font-size:24px;
+	text-align:center;
+	font-family:OpenSansBold, Arial, Helvetica, sans-serif;
+	line-height:1;
+	margin-bottom:20px;
+}
+
+[data-type="HTMLTicketModuleSuccessSideElement"][data-direction="BUY"] {
+	color:#69A757;
+	background-color:transparent;
+}
+
+[data-type="HTMLTicketModuleSuccessSideElement"][data-direction="SELL"] {
+	color:#A91015;
+	background-color:transparent;
+}
+
+[data-type="HTMLTicketModuleErrorNotificationMessageElement"] {
+	text-align:center;
+	font-size:16px;
+}
+
+[data-type~="HTMLFormFieldGroupElement"] [data-type~="HTMLFormFieldElement"] {
+	width:135px;
+}
+
+[data-type~="HTMLFormFieldGroupElement"] [data-type~="HTMLFormLabelElement"] {
+	float:none;
+	margin-bottom:5px;
+}
+
+[data-type~="HTMLFormFieldGroupElement"] [data-type~="HTMLFormInputElement"] {
+	margin-left:0;
+}
+
+[data-deal-ticket-role="stopField"] {
+	float:left;
+}
+
+[data-deal-ticket-role="limitField"] {
+	float:right;
+}
+
+[data-type~="HTMLTicketModuleElement"] [data-type~="HTMLTabNavigationElement"] {
+	margin-bottom:5px;
+	padding-bottom:5px;
+	border:solid 1px #EEE;
+	border-width:0 0 1px;
+}
+
+[data-type~="HTMLTicketModuleElement"] [data-type~="HTMLTabNavigationItemElement"] {
+	/*width:93px;*/
+	width:141px;
+	background-color:#DEDEDE;
+	border-radius:10px;
+	padding:2px 0;
+	margin-right:2px;
+	text-transform:uppercase;
+	font-size:10px;
+}
+
+[data-type~="HTMLTicketModuleButton"] {
+	position:absolute;
+	bottom:0;
+	right:0;
+	left:0;
+}
+
+[data-type~="HTMLWizardButtonWrapElement"] {
+	position:absolute;
+	bottom:0;
+	right:0;
+	left:0;
+}
+
+[data-type~="HTMLWizardButtonWrapElement"] [data-type~="HTMLButtonElement"] {
+	width:143px;
+}
+
+[data-type~="HTMLTicketModuleWizardHeadElement"] {
+	font-size:14px;
+	margin-bottom:10px;
+	border:solid 1px #EEE;
+	border-width:0 0 1px;
+	padding-bottom:5px;
+	text-align:center;
+	font-family:OpenSansBold,Arial,Helvetica,sans-serif;
+}
+
+[data-wizard-role="stepper"] {
+	margin:0 70px;
+}
+
+[data-wizard-role="desc"] {
+	text-align:center;
+	margin-bottom:10px;
+	font-size:12px;
+}
+
+[data-ticket-role~="senti-charting-soon"] {
+	background-image:url(/images/sentimentChartingCommingSoon.png);
+	width:201px;
+	height:88px;
+	text-indent:-999999px;
+	margin:10px auto 0;
+}
+
+[data-ticket-role~="sentiment-sub-heading"] {
+	font-family:OpenSansBold,Arial,Helvetica,sans-serif;
+	line-height:1;
+	text-align:center;
+	font-size:14px;
+	color:#999;
+	display:block;
+	outline:none;
+}

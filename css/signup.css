@@ -1,0 +1,60 @@
+@import "screen.css";
+
+[data-type~="HTMLPasswordStrengthElement"],
+[data-type~="HTMLAdvancedPasswordStrengthElement"] {
+	float:right;
+}
+
+[data-signup-role~="password-label"] {
+	float:left;
+}
+
+[data-signup-role~="email-label"],
+[data-signup-role~="name-label"] {
+	float:left;
+}
+
+[data-signup-role~="exists-label"] {
+	float:right;
+	color:#D83E3E;
+}
+
+[data-signup-role~="language-select"] {
+	float:right;
+}
+
+[data-type="HTMLPageElement"] {
+	width:500px;
+	margin:0 auto;
+}
+
+[data-type~="HTMLBrandIconElement"] {
+	margin:0 auto 20px;
+}
+
+[data-type~="HTMLPaneHeadElement"] {
+	text-align:center;
+	font-size:18px;
+	margin-bottom:30px;
+}
+
+[data-type~="HTMLCustomInlineTextInputElement"] {
+	width:205px;
+}
+
+[data-type~="HTMLLinearFormElement"] {
+	margin-bottom:20px;
+}
+
+[data-type~="HTMLCustomInputElement"] {
+	font-size:16px;
+}
+
+[data-signup-role~="password-helper"] {
+	font-size:11px;
+}
+
+body {
+	padding:100px 0;
+}
+

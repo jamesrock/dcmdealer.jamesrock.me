@@ -1,0 +1,89 @@
+[data-type~="HTMLFinderModuleElement"] {
+	background-image:-moz-linear-gradient(top, #F7721C, #E6620D);
+	background-image:-webkit-linear-gradient(top, #F7721C, #E6620D);
+	background-image:-ms-linear-gradient(top, #F7721C, #E6620D);
+	background-color:#F7721C;
+	padding:15px;
+	box-shadow:5px 5px 5px rgba(0, 0, 0, 0.4);
+}
+
+[data-type~="HTMLFinderModuleElement"] [data-type~="HTMLSelectMenuElement"] {
+	font-size:14px;
+}
+
+[data-type~="HTMLFinderModuleElement"] [data-type="HTMLScrollPanelElement"] {
+	background-color:#FFF;
+}
+
+[data-type~="HTMLFinderModuleElement"] [data-type="HTMLScrollPanelBodyElement"] {
+	padding-right:0;
+}
+
+[data-finder-role="item"] {
+	padding:7px 10px;
+	font-size:11px;
+}
+
+[data-finder-role="item"]:nth-child(even) {
+	background-color:#F7F7F7;
+}
+
+[data-finder-role="item"]:hover {
+	background-color:#E1EFF5;
+}
+
+[data-finder-role="item"] div {
+	vertical-align:middle;
+}
+
+[data-finder-item-odd="true"] {
+	background-color:rgba(0,0,0,0.04);
+}
+
+[data-type~="HTMLFinderModuleHeadElement"] {
+	margin-bottom:15px;
+}
+
+[data-finder-role="search-input"] {
+	width:340px;
+	padding:5px;
+	font-size:14px;
+	margin:0;
+}
+
+[data-finder-item-role="left"] {
+	float:left;
+	width:500px;
+	text-overflow:ellipsis;
+	width:250px;
+	overflow:hidden;
+	white-space:nowrap;
+	font-size:12px;
+}
+
+[data-finder-item-role="left"] > div {
+	display:inline-block;
+	margin-right:5px;
+}
+
+[data-finder-item-role="right"] {
+	float:right;
+}
+
+[data-finder-item-role="itemCategory"] {
+	display:inline-block;
+	margin-right:10px;
+}
+
+[data-type~="HTMLFinderModuleHeadLeftElement"] {
+	float:left;	
+}
+
+[data-type~="HTMLFinderModuleHeadRightElement"] {
+	float:right;
+	width:200px;
+}
+
+[data-finder-head-role="right"] [data-role="select"] {
+	background-color:#FFF;
+}

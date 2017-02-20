@@ -1,0 +1,16 @@
+[data-type="HTMLScrollPanelElement"] {
+	position:relative;
+	overflow:hidden;
+}
+
+[data-scroller-active="true"] > [data-type="HTMLScrollPanelHandleElement"] {
+	width:9px;
+	height:60px;
+	right:0;
+	top:0;
+	position:absolute;
+	cursor:pointer;
+	opacity:0.3;
+	background-color:#000;
+	border-radius:2px;
+}

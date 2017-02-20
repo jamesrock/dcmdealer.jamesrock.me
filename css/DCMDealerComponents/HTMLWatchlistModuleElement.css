@@ -1,0 +1,39 @@
+[data-type~="HTMLWatchlistModuleElement"][data-collapsed="false"] {
+	width:920px;
+}
+
+[data-type~="HTMLWatchlistModuleElement"][data-collapsed="true"] {
+	width:300px;
+}
+
+[data-type~="HTMLWatchlistModuleElement"] [data-type~="HTMLSelectMenuElement"][data-active="false"] {
+	box-shadow:none;
+	background-color:transparent;
+}
+
+[data-type~="HTMLWatchlistModuleElement"] [data-type~="HTMLSelectMenuElement"] {
+	margin-top:-3px;
+}
+
+[data-type~="HTMLWatchlistModuleElement"][data-collapsed="true"] [data-table-column-id="1"] [data-role="market-name"],
+[data-type~="HTMLWatchlistModuleElement"][data-collapsed="true"] [data-table-column-id="4"],
+[data-type~="HTMLWatchlistModuleElement"][data-collapsed="true"] [data-table-column-id="5"],
+[data-type~="HTMLWatchlistModuleElement"][data-collapsed="true"] [data-table-column-id="6"],
+[data-type~="HTMLWatchlistModuleElement"][data-collapsed="true"] [data-table-column-id="7"],
+[data-type~="HTMLWatchlistModuleElement"][data-collapsed="true"] [data-table-column-id="9"] {
+	display:none;
+}
+
+[data-type~="HTMLWatchlistModuleElement"][data-collapsed="false"] [data-table-column-id="1"] {
+	width:200px;
+}
+
+[data-type~="HTMLWatchlistModuleElement"][data-collapsed="true"] [data-table-column-id="1"] {
+	width:50px;
+}
+
+[data-type~="HTMLWatchlistModuleElement"] [data-table-column-id="2"],
+[data-type~="HTMLWatchlistModuleElement"] [data-table-column-id="3"],
+[data-type~="HTMLWatchlistModuleElement"] [data-table-column-id="5"] {	
+	background-color:rgba(0,0,0,0.05);
+}

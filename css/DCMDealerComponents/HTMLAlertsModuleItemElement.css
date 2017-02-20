@@ -1,0 +1,50 @@
+[data-type~="HTMLAlertsModuleItemElement"]:nth-child(even) {
+	background-color:#F7F7F7;
+}
+
+[data-type~="HTMLAlertsModuleItemElement"]:hover {
+	background-color:#E1EFF5;
+}
+
+[data-type~="HTMLAlertsModuleItemElement"] {
+	padding:3px 5px;
+	border:solid 5px #FFF;
+	border-width:0 0 0 5px;
+}
+
+[data-alerts-item-role="message"] {
+	color:#999;
+}
+
+[data-type~="HTMLAlertsModuleItemElement"][data-status="TRIGGERED"] {
+	border-color:#CD0202;
+}
+
+[data-type~="HTMLAlertsModuleItemElement"][data-status="READ"] {
+	border-color:#93DC71;
+}
+
+[data-alert-role="alert-me-when"] {
+	margin-bottom:5px;
+}
+
+[data-alert-role="instrument"] {
+	font-size:14px;
+	margin-bottom:10px;
+}
+
+[data-alert-role="conditions"] [data-role="column"] {
+	margin-left:10px;
+}
+
+[data-alert-role="conditions"] [data-column-id="0"] {
+	margin-left:0;
+}
+
+[data-dialog-role="alert"] [data-dialog-role="button"] {
+	width:178px;
+}
+
+[data-alert-role="message"] {
+	margin-bottom:10px;
+}

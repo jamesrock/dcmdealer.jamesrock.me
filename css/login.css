@@ -1,0 +1,49 @@
+@import "screen.css";
+
+[data-type~="HTMLPasswordStrengthElement"],
+[data-type~="HTMLAdvancedPasswordStrengthElement"],
+[data-login-role~="forgotten"],
+[data-login-role~="language-select"] {
+	float:right;
+}
+
+[data-login-role~="forgotten"] {
+	font-family:OpenSansRegular,Arial,Helvetica,sans-serif;
+	cursor:pointer;
+}
+
+[data-login-role~="forgotten"]:hover {
+	text-decoration:underline;
+}
+
+[data-login-role~="password-label"],
+[data-login-role~="email-label"] {
+	float:left;
+}
+
+[data-type="HTMLPageElement"] {
+	width:500px;
+	margin:0 auto;
+}
+
+[data-type~="HTMLBrandIconElement"] {
+	margin:0 auto 20px;
+}
+
+[data-type~="HTMLPaneHeadElement"] {
+	text-align:center;
+	font-size:18px;
+	margin-bottom:30px;
+}
+
+[data-type~="HTMLLinearFormElement"] {
+	margin-bottom:20px;
+}
+
+[data-type~="HTMLCustomInputElement"] {
+	font-size:16px;
+}
+
+body {
+	padding:100px 0;
+}

@@ -1,0 +1,148 @@
+[data-type~="HTMLUpgradeAccountDialogElement"] {
+	width:650px;
+}
+
+[data-type~="HTMLUpgradeAccountDialogElement"] [data-type="HTMLFormLabelElement"] {
+	float:none;
+	font-weight:bold;
+	font-size:12px;
+	font-family:OpenSansSemibold,Arial,Helvetica,sans-serif;
+	margin-bottom:3px;
+}
+
+[data-type~="HTMLUpgradeAccountDialogElement"] [data-type="HTMLFormInputElement"] {
+	margin-left:0;
+}
+
+[data-type~="HTMLUpgradeAccountDialogElement"] [data-type~="HTMLCustomInputElement"] {
+	font-size:14px;
+}
+
+[data-type~="HTMLUpgradeAccountDialogElement"] [data-type="HTMLTabNavigationItemElement"] {
+	width:112px;
+	text-align:center;
+	font-size:12px;
+}
+
+[data-type~="HTMLUpgradeAccountDialogElement"] [data-type="HTMLTabNavigationItemElement"] [data-tab-role="number"] {
+	width:30px;
+	height:30px;
+	background-image:url(/images/stepStatusIcon.png);
+	line-height:30px;
+	font-family:OpenSansSemibold,Arial,Helvetica,sans-serif;
+	font-size:16px;
+	margin:0 auto 5px;
+	background-color:#FFF;
+}
+
+[data-type~="HTMLUpgradeAccountDialogElement"] [data-type="HTMLTabNavigationItemElement"] [data-tab-role="number"][data-status="complete"] {
+	background-position:-30px 0;
+	text-indent:-999999px;
+}
+
+[data-type~="HTMLUpgradeAccountDialogElement"] [data-type="HTMLTabNavigationElement"] {
+	margin-bottom:20px;
+}
+
+[data-type="HTMLTabNavigationItemElement"][data-status="complete"] {
+	color:#0F0;
+}
+
+[data-type~="HTMLUpgradeAccountDialogElement"] [data-type="HTMLTabGroupItemElement"] {
+	padding:0 70px;
+}
+
+[data-type~="HTMLUpgradeAccountDialogElement"] [data-type="HTMLFormElement"] [data-type="HTMLFormElement"] {
+	padding:0 20px;
+}
+
+[data-type~="HTMLUpgradeAccountDialogElement"] [data-type="HTMLFormElement"] [data-type="HTMLFormElement"] [data-type="HTMLFormFieldElement"] {
+	margin-bottom:5px;
+}
+
+[data-type~="HTMLUpgradeAccountDialogElement"] [data-type="HTMLFormFieldElement"] {
+	margin-bottom:15px;
+}
+
+[data-type~="HTMLUpgradeAccountDialogElement"] [data-type="HTMLDialogFootElement"] {
+	padding:20px 90px;
+	background-color:#EEE;
+	margin:0 -20px -20px;
+}
+
+[data-type~="HTMLUpgradeAccountDialogElement"] [data-type~="HTMLInlineRadioButtonGroupElement"] {
+	margin-bottom:5px;
+}
+
+[data-type~="HTMLUpgradeAccountDialogElement"] [data-type~="email-input"] {
+	margin-top:10px;
+}
+
+[data-type~="HTMLUpgradeAccountDialogElement"] [data-type~="HTMLLabelElement"] {
+	font-size:13px;
+}
+
+[data-type~="HTMLUpgradeAccountDialogElement"] [data-type="HTMLCheckboxElement"] {
+	margin-bottom:5px;
+}
+
+[data-type~="HTMLUpgradeAccountDialogElement"] [data-role="message"] {
+	font-size:14px;
+	margin-bottom:20px;
+}
+
+[data-type~="HTMLUpgradeAccountDialogElement"] [data-type~="HTMLDialogFootElement"] [data-type~="HTMLButtonElement"] {
+	width:225px;
+}
+
+[data-type~="HTMLUpgradeAccountDialogElement"] [data-type~="HTMLCustomInlineTextInputElement"][data-role="title"] {
+	width:66px;
+}
+
+[data-type~="HTMLUpgradeAccountDialogElement"] [data-type~="HTMLCustomInlineTextInputElement"][data-role="first-name"],
+[data-type~="HTMLUpgradeAccountDialogElement"] [data-type~="HTMLCustomInlineTextInputElement"][data-role="last-name"] {
+	width:180px;
+}
+
+[data-type~="HTMLUpgradeAccountDialogElement"] [data-type~="HTMLCustomInlineNumericInputElement"][data-role="dob-day"],
+[data-type~="HTMLUpgradeAccountDialogElement"] [data-type~="HTMLCustomInlineNumericInputElement"][data-role="dob-month"],
+[data-type~="HTMLUpgradeAccountDialogElement"] [data-type~="HTMLCustomInlineNumericInputElement"][data-role="dob-year"] {
+	width:66px;
+}
+
+[data-type~="HTMLUpgradeAccountDialogElement"] [data-type~="HTMLCustomInlineNumericInputElement"][data-role="contact-primary"],
+[data-type~="HTMLUpgradeAccountDialogElement"] [data-type~="HTMLCustomInlineNumericInputElement"][data-role="contact-mobile"] {
+	width:222px;
+}
+
+[data-type~="HTMLUpgradeAccountDialogElement"] [data-type~="HTMLCustomInlineNumericInputElement"][data-role="contact-mobile"] {
+	margin-right:0;
+}
+
+[data-type~="HTMLUpgradeAccountDialogElement"] [data-type~="HTMLCustomInlineTextInputElement"][data-role="employment-occupation"],
+[data-type~="HTMLUpgradeAccountDialogElement"] [data-type~="HTMLCustomInlineTextInputElement"][data-role="employment-industry"] {
+	width:222px;
+}
+
+[data-type~="HTMLUpgradeAccountDialogElement"] [data-role~="download-form"] {
+	margin-bottom:10px;
+}
+
+[data-role="step-line"] {
+	border:dashed 1px #CCC;
+	border-width:1px 0 0;
+	position:absolute;
+	left:70px;
+	right:70px;
+	top:15px;
+	z-index:-1;
+}
+
+[data-type~="HTMLUpgradeAccountDialogElement"] [data-type~="HTMLCustomInlineTextInputElement"] {
+	width:142px;
+}
+
+[data-type~="HTMLUpgradeAccountDialogElement"] [data-type~="HTMLTabNavigationItemElement"][disabled="disabled"] {
+	opacity:1;
+	color:#BBB;
+}

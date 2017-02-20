@@ -1,0 +1,30 @@
+[data-type~="HTMLHeadingElement"] {
+	line-height:1;
+	font-family:OpenSansBold,Arial,Helvetica,sans-serif;
+	text-align:center;
+}
+
+[data-type~="HTMLHeadingElement"][data-role="standard-orange"] {
+	color:#E8630E;
+}
+
+[data-type~="HTMLHeadingElement"][data-role="orange-uppercase"] {
+	color:#E8630E;
+	text-transform:uppercase;
+}
+
+[data-type~="HTMLHeadingElement"][data-role="standard-grey"] {
+	color:#999999;
+}
+
+[data-type~="HTMLHeadingElement"][data-size="medium"] {
+	font-size:18px;
+}
+
+[data-type~="HTMLHeadingElement"][data-size="small"] {
+	font-size:14px;
+}
+
+[data-type~="HTMLHeadingElement"][data-size="extra-small"] {
+	font-size:12px;
+}

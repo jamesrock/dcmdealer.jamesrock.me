@@ -1,0 +1,26 @@
+[data-type~="HTMLNotesModuleElement"][data-collapsed="false"] {
+	width:300px;
+}
+
+[data-type~="HTMLNotesModuleItemElement"] {
+	margin-bottom:1px;
+}
+
+[data-type~="HTMLNotesModuleItemElement"]:nth-child(even) {
+	background-color:#F7F7F7;
+}
+
+[data-type~="HTMLNotesModuleItemElement"]:hover {
+	background-color:#E1EFF5;
+}
+
+[data-type~="HTMLNotesModuleItemElement"] [data-type~="HTMLGraphicButtonElement"][data-role="close"] {
+	width:36px;
+	height:36px;
+	border:0;
+	margin:0;
+}
+
+[data-notes-item-role="left"] {
+	padding:5px 10px 5px 7px;
+}

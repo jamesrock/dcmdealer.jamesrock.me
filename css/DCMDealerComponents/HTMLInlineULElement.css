@@ -1,0 +1,4 @@
+[data-type~="HTMLInlineULElement"] [data-type~="HTMLLIElement"] {
+	display:inline-block;
+	padding:0 20px;
+}

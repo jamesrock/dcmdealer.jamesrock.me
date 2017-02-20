@@ -1,0 +1,3 @@
+[data-type~="HTMLCheckboxElement"] [data-check-role="check"] {
+	background-image:url(/images/radio-button.png);
+}

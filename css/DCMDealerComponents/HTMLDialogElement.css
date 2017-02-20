@@ -1,0 +1,65 @@
+[data-type~="HTMLDialogElement"] {
+	background-color:#FFF;
+	box-shadow:0 5px 100px rgba(0, 0, 0, 0.5);
+	z-index:999999;
+	position:fixed;
+	top:50%;
+	left:50%;
+	width:450px;
+	margin-left:-225px;
+}
+
+[data-type~="HTMLDialogElement"] > div {
+	padding:20px;
+}
+
+[data-type="HTMLDialogHeadElement"] {
+	font-size:16px;
+	text-transform:uppercase;
+	border:solid 1px #EEE;
+	border-width:0 0 1px;
+	margin-bottom:20px;
+	padding-bottom:10px;
+	color:#999;
+}
+
+[data-type="HTMLDialogBodyElement"] {
+	margin-bottom:20px;
+}
+
+[data-type="HTMLDialogMessageElement"] {
+	margin-bottom:10px;
+	font-size:16px;
+}
+
+[data-type="HTMLDialogOverlayElement"] {
+	z-index:999999;
+}
+
+[data-type~="HTMLDialogLeftButtonElement"],
+[data-type~="HTMLDialogRightButtonElement"] {
+	width:195px;
+}
+
+[data-type~="HTMLDialogLeftButtonElement"] {
+	margin-right:20px;
+}
+
+[data-type~="HTMLDialogFootElement"] {
+	padding:20px;
+	background-color:#EEE;
+	margin:0 -20px -20px;
+}
+
+[data-dialog-role="close"] {
+	position:absolute;
+	top:20px;
+	right:20px;
+	text-transform:uppercase;
+	cursor:pointer;
+}
+
+[data-dialog-role="close"]:hover {
+	text-decoration:underline;
+}
+

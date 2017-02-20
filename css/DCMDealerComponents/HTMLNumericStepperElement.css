@@ -1,0 +1,56 @@
+[data-type~="HTMLNumericStepperElement"] {
+	position:relative;
+	margin-bottom:5px;
+}
+
+[data-type="HTMLNumericStepperButtonGroupElement"] {
+	position:absolute;
+	right:0;
+	top:0;
+	border:solid 1px #E8E8E8;
+	border-width:1px 0 0 1px;
+	cursor:pointer;
+	
+	background-image:-moz-linear-gradient(top, #FFF, #E5E5E5);
+	background-image:-webkit-linear-gradient(top, #FFF, #E5E5E5);
+	background-repeat:no-repeat;
+	background-position:0 50%;
+	
+}
+
+[data-type~="HTMLNumericStepperButtonElement"] {
+	width:15px;
+	height:20px;
+	
+	border:solid 1px #E8E8E8;
+	border-width:0 1px 1px 0;
+	display:block;
+	float:left;
+	
+	background-image:url(/images/numeric-stepper.png);
+	background-repeat:no-repeat;
+	background-position:0 50%;
+}
+
+[data-type~="HTMLNumericStepperElement"] [data-type~="HTMLCustomInputElement"] {
+	margin-right:33px;
+	margin-bottom:0;
+}
+
+[data-type~="HTMLNumericStepperIncrementElement"] {
+	background-position:-14px 50%, 0 0;
+}
+
+[data-type~="HTMLNumericStepperElement"][data-enabled="false"],
+[data-type~="HTMLNumericStepperElement"][disabled="disabled"] {
+	opacity:0.6;
+}
+
+[data-type~="HTMLNumericStepperElement"][data-enabled="false"] [data-type~="HTMLNumericStepperButtonElement"],
+[data-type~="HTMLNumericStepperElement"][disabled="disabled"] [data-type~="HTMLNumericStepperButtonElement"] {
+	cursor:default;
+}
+
+[data-type~="HTMLNumericStepperElement"][data-valid="false"] input {
+	color:red;
+}

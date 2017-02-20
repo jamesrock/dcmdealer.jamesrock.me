@@ -1,0 +1,7 @@
+[data-type~="HTMLRadioButtonGroupElement"] [data-type~="HTMLRadioButtonGroupItemElement"] {
+	margin-bottom:1px;
+}
+
+[data-type~="HTMLRadioButtonGroupElement"] [data-type~="HTMLRadioButtonGroupItemElement"]:last-child {
+	margin-bottom:0;
+}

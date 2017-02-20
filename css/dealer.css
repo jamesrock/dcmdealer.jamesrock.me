@@ -1,0 +1,77 @@
+@import "screen.css";
+
+body {
+	font-size:11px;
+	color:#555;
+}
+
+table {
+	border-collapse:collapse;
+}
+
+td {
+	vertical-align:top;
+}
+
+th,
+strong,
+[data-direction] {
+	font-family:OpenSansBold, Arial, Helvetica, sans-serif;
+}
+
+[data-type="keyword"] {
+	text-decoration:underline;
+}
+
+[data-value-direction="down"],
+[data-value-direction="DOWN"] {
+	-moz-animation:down 500ms linear;
+	-webkit-animation:down 500ms linear;
+}
+
+[data-value-direction="up"],
+[data-value-direction="UP"] {
+	-moz-animation:up 500ms linear;
+	-webkit-animation:up 500ms linear;
+}
+
+[data-role="direction-indecator"] {
+	font-size:14px;
+	line-height:1;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+[data-direction] {
+	color:#FFF;
+}
+
+[data-direction="BUY"] {
+	color:#32A020;
+}
+
+[data-direction="SELL"] {
+	color:#CD0202;
+}
+
+[data-sentiment-enabled="false"] {
+	text-decoration:line-through;
+}
+
+[data-role="ticker"] {
+	color:#E8630E;
+}
+
+[data-type~="HTMLPageElement"] {
+	margin:0 50px 0 100px;
+	text-align:left;
+	padding:120px 0 100px;
+	overflow:hidden;
+}
+
+[data-interactive="true"] {
+	background-color:#EEE;
+}
+
+[data-color="orange"] {
+	color:#E8630E;
+}

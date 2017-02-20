@@ -1,0 +1,46 @@
+[data-type~="HTMLPortfolioModuleElement"][data-collapsed="false"] {
+	width:188px;
+}
+
+[data-type~="HTMLPortfolioModuleElement"] > [data-type="HTMLModuleHeadElement"] {
+	height:auto;
+}
+
+[data-type~="HTMLPortfolioModuleElement"] > [data-type="HTMLModuleBodyElement"] {
+	height:150px;
+}
+
+[data-type~="HTMLPortfolioModuleElement"] [data-type="HTMLModuleHeadLeftElement"] {
+	height:auto;
+	margin-top:5px;
+	margin-left:10px;
+	margin-bottom:5px;
+}
+
+[data-type~="HTMLPortfolioModuleElement"] [data-type="HTMLModuleHeadLeftElement"] [data-type~="HTMLIconElement"] {
+	display:none;
+}
+
+[data-portfolio-role="table"] td {
+	text-align:left;
+}
+
+[data-portfolio-item-role="foot"] {
+	color:#999;
+}
+
+[data-type~="HTMLPortfolioModuleElement"] [data-type="HTMLModuleFootElement"] {
+	padding:2px 3px;
+}
+
+[data-type~="HTMLPortfolioModuleElement"] th {
+	font-size:10px;
+}
+
+[data-type~="HTMLPortfolioModuleElement"] [data-table-column-id="1"] {
+	width:85px;
+}
+
+[data-type~="HTMLPortfolioModuleElement"] [data-table-column-id="2"] {
+	text-align:center;
+}

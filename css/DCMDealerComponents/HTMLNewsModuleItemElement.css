@@ -1,0 +1,12 @@
+[data-type~="HTMLNewsModuleItemElement"] {
+	padding:5px;
+	cursor:pointer;
+}
+
+[data-type~="HTMLNewsModuleItemElement"]:nth-child(even) {
+	background-color:#F7F7F7;
+}
+
+[data-type~="HTMLNewsModuleItemElement"]:hover {
+	background-color:#E1EFF5;
+}

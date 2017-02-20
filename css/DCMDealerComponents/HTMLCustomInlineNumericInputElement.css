@@ -1,0 +1,9 @@
+[data-type~="HTMLCustomInlineNumericInputElement"] {
+	display:inline-block;
+	margin-right:10px;
+	margin-bottom:0;
+}
+
+[data-type~="HTMLCustomInlineNumericInputElement"]:last-child {
+	margin-right:0;
+}

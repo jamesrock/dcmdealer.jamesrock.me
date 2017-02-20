@@ -1,0 +1,185 @@
+[data-type~="HTMLModuleElement"],
+.ui-sortable-placeholder { 
+	margin:5px;
+	float:left;
+	box-shadow:0 1px 2px rgba(0, 0, 0, 0.35);
+}
+
+.ui-sortable-placeholder {
+	visibility:visible!important;
+	box-shadow:inset 0 1px 2px rgba(0, 0, 0, 0.35);
+	background-color:#FFF;
+}
+
+[data-type="HTMLModuleHeadElement"],
+[data-type="HTMLModuleBodyElement"] {
+	background-image:-moz-linear-gradient(top, #FFF, #E6E6E6);
+	background-image:-webkit-linear-gradient(top, #FFF, #E6E6E6);
+	background-image:-ms-linear-gradient(top, #FFF, #E6E6E6);
+	filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#FFFFFF', endColorstr='#E6E6E6');
+	background-color:#E6E6E6;
+}
+
+[data-type="HTMLModuleHeadElement"] {
+	height:36px;
+}
+
+[data-type~="HTMLModuleElement"][data-moveable="true"] > [data-type="HTMLModuleHeadElement"] {
+	cursor:move;
+}
+
+[data-type="HTMLModuleHeadLeftElement"] {
+	height:28px;
+	margin-top:8px;
+	margin-left:10px;
+	float:left;
+}
+
+[data-type="HTMLModuleHeadLeftElement"] > [data-type="HTMLIconElement"] {
+	float:left;
+	margin-right:10px;
+}
+
+[data-type~="HTMLModuleHeadingElement"] {
+	font-family:OpenSansSemibold, Arial, Helvetica, sans-serif;
+	float:left;
+	font-size:14px;
+	color:#888;
+	text-transform:uppercase;
+}
+
+[data-type="HTMLModuleBodyElement"] {
+	padding:5px;
+	border:solid 1px #FFF;
+	border-width:0 2px 2px;
+	height:350px;
+	position:relative;
+}
+
+[data-type="HTMLModuleFootElement"] {
+	padding:5px 10px;
+	background-color:#EEE;
+	border:solid 1px #DDD;
+	position:absolute;
+	bottom:5px;
+	left:5px;
+	right:5px;
+}
+
+[data-account-role="clientname"] {
+	font-family:OpenSansBold, Arial, Helvetica, sans-serif;
+}
+
+[data-account-role="clientid"] {
+	font-weight:bold;
+}
+
+[data-account-role="details-heading"] {
+	color:#888;
+}
+
+[data-account-role="details-value"] {
+	color:#E0690F;
+	font-size:12px;
+}
+
+[data-account-role="details"] > [data-role="column"] {
+	width:100px;
+	text-align:center;
+}
+
+[data-type~="HTMLModuleElement"][data-pinable="true"] {
+	position:fixed;
+	top:50%;
+	left:50%;
+	float:none;
+	margin-top:-200px;
+	z-index:999999;
+	box-shadow:0 5px 100px rgba(0, 0, 0, 0.5);
+}
+
+[data-type~="HTMLModuleElement"][data-collapsed="true"][data-pinable="true"] {
+	margin-left:-150px;
+}
+
+[data-type~="HTMLModuleElement"][data-collapsed="false"][data-pinable="true"] {
+	margin-left:-305px;
+}
+
+[data-type="HTMLModuleHeadRightElement"] {
+	float:right;
+}
+
+[data-role="button-wrap"] {
+	float:left;
+	padding:7px 0;
+	padding-right:4px;
+}
+
+[data-type~="HTMLModuleElement"][data-closeable="false"] [data-type~="HTMLGraphicButtonElement"][data-role="close"] {
+	display:none;
+}
+
+[data-type~="HTMLModuleElement"][data-unpinable="false"][data-pinable="false"] [data-type~="HTMLGraphicButtonElement"][data-role="pin-to-dashboard"] {
+	display:none;
+}
+
+[data-type~="HTMLModuleElement"][data-resizeable="false"] [data-type~="HTMLGraphicButtonElement"][data-role="expand-collapse-toggle"] {
+	display:none;
+}
+
+[data-type~="HTMLModuleElement"] [data-type~="HTMLGraphicButtonElement"][data-role="close"] {
+	background-position:0 0;
+	margin-left:5px;
+	border:solid 1px #EEE;
+	border-width:0 0 0 1px;
+	float:right;
+}
+
+[data-type~="HTMLModuleElement"] [data-type~="HTMLGraphicButtonElement"][data-role="close"]:hover {
+	background-position:-36px -36px;
+}
+
+[data-type~="HTMLModuleElement"][data-state="CLOSED"],
+[data-type~="HTMLModuleElement"][data-open="false"] {
+	display:none;
+}
+
+[data-type~="HTMLModuleElement"] table {
+	width:100%;
+	border-collapse:collapse;
+	table-layout:fixed;
+}
+
+[data-type~="HTMLModuleElement"] thead {
+	background-color:#F7F7F7;
+}
+
+[data-type~="HTMLModuleElement"] td,
+[data-type~="HTMLModuleElement"] th {
+	padding:3px 5px;
+	text-align:center;
+	cursor:default;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	overflow:hidden;
+}
+
+[data-type~="HTMLModuleElement"] th {
+	font-family:OpenSansBold, Arial, Helvetica, sans-serif;
+	color:#838383;
+	text-transform:capitalize;
+}
+
+[data-type~="HTMLModuleElement"] tbody tr:nth-child(even) {
+	background-color:#F2F2F2;
+}
+
+[data-type~="HTMLModuleElement"] tbody tr:hover {
+	background-color:#E1EFF5;
+}
+
+[data-type~="HTMLModuleElement"] [data-table-column-id="1"] {
+	text-align:left;
+	width:100px;
+}

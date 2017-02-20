@@ -1,0 +1,7 @@
+[data-type~="HTMLNoItemsNotificationElement"] {
+	padding:10px;
+	background-color:#ECECEC;
+	color:InfoText;
+	border:1px solid #D3D3D3;
+	font-size:12px;
+}

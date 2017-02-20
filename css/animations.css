@@ -1,0 +1,55 @@
+@-moz-keyframes spin {
+	0% { 
+		-moz-transform:rotate(0deg); 
+	}
+	100% { 
+		-moz-transform:rotate(360deg); 
+	}
+}
+
+@-webkit-keyframes spin {
+	0% { 
+		-webkit-transform:rotate(0deg);
+	}
+	100% { 
+		-webkit-transform:rotate(360deg); 
+	}
+}
+
+@-moz-keyframes up {
+	0% {
+		background-color:rgba(147,220,113,0.5);
+	}
+	100% {
+		background-color:inhreit;
+	}
+}
+
+@-moz-keyframes down {
+	0% {
+		background-color:rgba(205,2,2,0.5);	
+	}
+	100% { 
+		background-color:inhreit;
+		
+	}
+}
+
+@-webkit-keyframes up {
+	0% {
+		background-color:rgba(147,220,113,0.5);
+	}
+	100% {
+		background-color:inhreit;
+	}
+}
+
+@-webkit-keyframes down {
+	0% {
+		background-color:rgba(205,2,2,0.5);	
+	}
+	100% { 
+		background-color:inhreit;
+		
+	}
+}

@@ -1,0 +1,31 @@
+[data-type~="HTMLHeadNavigationElement"] {
+	float:left;
+	margin-left:100px;
+}
+
+[data-type~="HTMLHeadNavigationElement"] [data-column-id="1"] {
+	border:solid 1px #EEE;
+	border-width:0 1px;
+}
+
+[data-type~="HTMLHeadNavigationElement"] [data-type~="HTMLAnchorElement"] {
+	font-family:OpenSansSemibold,Arial,Helvetica,sans-serif;
+	font-size:14px;
+	padding:10px 20px;
+	display:block;
+	outline:none;
+}
+
+[data-type~="HTMLHeadNavigationElement"] [data-type~="HTMLAnchorElement"] div {
+	display:inline-block;
+	vertical-align:middle;
+}
+
+[data-type~="HTMLHeadNavigationElement"] [data-type~="HTMLAnchorElement"] [data-type~="HTMLIconElement"] {
+	margin-right:10px;
+}
+
+[data-type~="HTMLHeadNavigationElement"] [data-type~="HTMLAnchorElement"]:hover {
+	text-decoration:none;
+	color:#4B95B8;
+}

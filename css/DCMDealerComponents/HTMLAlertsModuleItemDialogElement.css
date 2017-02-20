@@ -1,0 +1,15 @@
+[data-type~="HTMLDialogElement"][data-type~="HTMLAlertsModuleItemDialogElement"] [data-type~="HTMLCheckboxElement"] {
+	margin-right:5px;
+}
+
+[data-type~="HTMLDialogElement"][data-type~="HTMLAlertsModuleItemDialogElement"] [data-type~="HTMLColumnElement"] {
+	margin-right:5px;
+}
+
+[data-type~="HTMLDialogElement"][data-type~="HTMLAlertsModuleItemDialogElement"] [data-column-id="3"] {
+	margin-right:0;
+}
+
+[data-type~="HTMLDialogElement"][data-type~="HTMLAlertsModuleItemDialogElement"] [data-column-id="3"] [data-type~="HTMLNumericStepperElement"] {
+	width:140px;
+}

@@ -1,0 +1,5 @@
+[data-type~="HTMLInstrumentsModuleElement"] [data-table-column-id="1"],
+[data-type~="HTMLInstrumentsModuleElement"] [data-table-column-id="2"],
+[data-type~="HTMLInstrumentsModuleElement"] [data-table-column-id="3"] {
+	width:170px!important;
+}

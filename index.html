@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>DCM Dealer | Trading Platform</title>
+		<link rel="stylesheet" href="/css/DCMDealerComponents.css">
+		<link rel="stylesheet" href="/css/dealer.css">
+		<link rel="shortcut icon" href="/images/favicon.ico">
+		<!--<script src="https://www.google.com/jsapi"></script>-->
+		<script>
+			var _gaq = (_gaq||[]);
+			// google.load("visualization", "1", {
+			// 	packages: ["corechart"]
+			// });
+		</script>
+	</head>
+	<body>
+		<script src="http://js.jamesrock.me/jquery.js"></script>
+		<!--<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/jquery-ui.min.js"></script>-->
+		<script src="http://js.jamesrock.me/ROCK/4.0/ROCK.js"></script>
+		<script src="/js/DCM.js"></script>
+		<script src="/js/DCMDealerCore.js"></script>
+		<script src="/js/DCMDealerComponents.js"></script>
+		<script src="/js/lightstreamer.js"></script>
+		<script>
+			DCM.Environment.setEnvironment("DEV");
+			// google.setOnLoadCallback(function() {
+			// 	
+			// });
+			DCM.Dealer();
+		</script>
+	</body>
+</html>
